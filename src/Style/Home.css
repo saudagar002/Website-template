@@ -1,0 +1,35 @@
+
+
+/* Home.css */
+
+/* Add styles for the Slider component */
+.slick-slider {
+    width: 80%;
+    /* margin: auto; */
+     margin: top 5cm;;
+     margin-left: 4cm;
+     
+  }
+  
+  /* Add styles for the images inside the Slider */
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Add styles for the home-container */
+  .home-container {
+    text-align: center;
+
+    /* margin: 20px; */
+    margin-top: 2cm;
+  }
+  
+  /* Add styles for the footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  

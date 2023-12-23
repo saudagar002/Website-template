@@ -1,0 +1,57 @@
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  background-image: url('../Components/Assets/smile9.png');
+
+  
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 100vh;
+  display: flex;}
+
+.hero-left {
+  padding: 20px; 
+  max-width: 50px;  
+  flex: 1;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+   gap: 20px; 
+   padding-left: 180px; 
+  height: 20cm; 
+}
+
+.hero-left h2 {
+  font-size: 24px;
+  color: #090909;
+  font-size: 26px;
+  font-weight: 600;
+  
+}
+
+
+
+
+
+.hero-left p {
+  /* color: #171717; */
+  color: rgb(1, 10, 19);
+
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 7cm;
+  margin-left:5cm;
+  
+}
+
+
+
+.hero-hand-icon img {
+  width: 105px;
+}

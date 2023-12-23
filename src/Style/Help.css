@@ -1,0 +1,90 @@
+/* Help.css */
+
+* {
+  box-sizing: border-box;
+}
+
+.hlo {
+  text-align: center;
+  margin-top: 15vh;
+}
+
+h3, h1 {
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  font-size: 24px;
+  margin: 0;
+}
+
+.abs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.icon-wrapper {
+  text-align: center;
+  flex: 1; 
+  margin: 10px;
+}
+
+.fa-tooth {
+  font-size: 90px;
+  color: #1d0766;
+  margin: 70px;
+  transition: all 0.3s ease;
+  border: 2px solid #333333;
+  border-radius: 10px;
+}
+
+.fa-arrow-right-long{
+  font-size: 40px;
+   color: #090221; 
+   /* margin: 70px;  */
+  /* transition: all 0.3s ease; */
+  /* border: 2px solid #333333; */
+  /* border-radius: 10px; */
+}
+
+
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #23051d;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.one-1 {
+  text-align: center; 
+  /* Add any other styles you need for the "one" class */
+}
+
+/* Hover effect */
+.fa-tooth:hover {
+  background-color: #23051d;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa-arrow-right-long:hover {
+  /* background-color: #8a1472; */
+  color: #1e81b2;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .abs {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center;
+  }
+
+  .icon-wrapper {
+    width: 100%; /* Full width for items on smaller screens */
+  }
+}
